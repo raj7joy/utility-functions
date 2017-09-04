@@ -7,7 +7,7 @@ function fixrightnav() {
 
 
 
-		var leftpos = ($("body").width() - $(".footer").width()) / 2 + $(".home_right_mid").width() + 11;
+		var leftpos = ($("body").width() - $(".footer-element").width()) / 2 + $(".home_right_mid").width() + 11;
 		var $window = $(window);
 
 		var $stickyyEl = $('.home_left_mid');
@@ -15,7 +15,7 @@ function fixrightnav() {
 		var elTop = $stickyyEl.offset().top;
 		var $sidebar = $('.home_left_mid');
 		var docheight = $(document).height();
-		var footerheight = $(".footer").height();
+		var footerheight = $(".footer-element").height();
 
 		var windowheight = $(window).height();
 		$window.on("resize scroll", function () {
@@ -35,8 +35,8 @@ function fixrightnav() {
 				} else if ((scrol_top + windowheight) > (elTop + $sidebar.height())) { //calculate again  if zoom changes height and width of all element changes
 					docheight = $(document).height();
 					windowheight = $(window).height();
-					footerheight = $(".footer").height() + 96;
-					leftpos = ($("body").width() - $(".footer").width()) / 2 + $(".home_right_mid").width() + 11;
+					footerheight = $(".footer-element").height() + 96;
+					leftpos = ($("body").width() - $(".footer-element").width()) / 2 + $(".home_right_mid").width() + 11;
 
 					$sidebar.addClass("fixedrhs");
 					$sidebar.css({
