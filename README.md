@@ -5,3 +5,7 @@ An example of the utilities methods
 fixedRHS()
 ```
 
+# Added new feature js function
+```
+new_feature()
+```
