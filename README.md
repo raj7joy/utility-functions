@@ -9,3 +9,8 @@ fixedRHS()
 ```
 new_feature()
 ```
+
+# Feature 2
+```
+feature2()
+```
