@@ -1,6 +1,7 @@
 An example of the utilities methods
 
-#example
+# example of how to use function
 ```
 fixedRHS()
 ```
+
