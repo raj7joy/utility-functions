@@ -1,5 +1,3 @@
 function new_feature(){
-
-
-return "new feature";
+return "Added New Feature";
 }
